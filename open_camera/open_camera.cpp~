@@ -1,0 +1,25 @@
+#include <opencv2/opencv.hpp>
+#include <iostream>
+
+using namespace cv;
+using namespace std;
+
+/************************************************
+ * this program demostrates how to open a camera and display the 
+ * video using opencv 2.
+ * how to compile: 
+ * 	option 1:use g++,command:g++ open_camera.cpp -o open_camera `pkg-config --cflags --libs opencv`
+ * **********************************************/
+
+int main()
+{
+    VideoCapture cap(0);
+    Mat frame;
+    while(1)
+   {
+    cap>>frame;
+    imshow("frame",frame);
+    waitKey(20);
+   }
+   return 0;
+}
