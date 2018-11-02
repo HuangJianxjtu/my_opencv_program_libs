@@ -2,4 +2,4 @@ This program demostrates how to open a camera and display the video using opencv
 
 How to use g++ to compile it:
 
-	$g++ open_camera.cpp -o open_camera `pkg-config --cflags --libs opencv`
+	$g++ read_img.cpp -o read_img `pkg-config --cflags --libs opencv`
