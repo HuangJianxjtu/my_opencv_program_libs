@@ -1,8 +1,8 @@
-# my_opencv_program_libs
+# Opencv Learning
 
-It's my program library about opencv. You can use those files to test whether opencv is well installed on your Ubuntu computer.
+It's my opencv demo programs and notes. You can use those programs to test whether opencv is well installed on your Ubuntu computer.
 
-## How to check if OpenCV is install on your computer?
+## How to check if OpenCV is installed on your computer?
 
 $ pkg-config --modversion opencv
 
